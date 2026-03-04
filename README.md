@@ -2,8 +2,11 @@
 CSCI3000 Web Programming Project Group 7
 
 Member 1 : Oliver Carrillo -
+
 Member 2 : Dan Pynzenyk -
+
 Member 3 : Kai Soustin-
+
 Member 4 : pending.. -
 
 ---------------------------------------------------

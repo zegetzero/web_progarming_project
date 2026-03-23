@@ -7,7 +7,7 @@ Member 2 : Dan Pynzenyk -
 
 Member 3 : Kai Soustin-
 
-Member 4 : pending.. -
+Member 4 : Franklin Vo -
 
 ---------------------------------------------------
 ## ✅ Rubric Requirements Checklist

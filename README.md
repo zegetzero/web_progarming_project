@@ -14,8 +14,8 @@ Member 4 : Franklin Vo -
 
 ###  HTML (15/70)
 ### 🏗️ HTML (15/70)
-- [ ] **Uses index.html as first page**
-- [ ] **2 html pages Minimum**
+- [x ] **Uses index.html as first page**
+- [x] **2 html pages Minimum**
 - [ ] **1 table**
 - [ ] **1 form**
 - [ ] **Uses images**

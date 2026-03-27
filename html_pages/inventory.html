@@ -3,16 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Programming Project</title>
-    <link rel = "stylesheet" href = "style.css">
-
+    <title>Inventory – Dealership</title>
+    <link rel="stylesheet" href="css_sheets/style.css">
+    <style>
+        /* Dan | Start */
+        .page-content {
+            padding-top: 100px;
+            max-width: 1100px;
+            margin: 0 auto;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+ 
+        .page-title {
+            font-size: 2rem;
+            font-weight: 300;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            color: #fff;
+            margin: 40px 0 30px;
+            text-align: center;
+        }
+ 
+        .inventory-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+ 
+        .inventory-table th, .inventory-table td {
+            padding: 14px 18px;
+            text-align: left;
+            border-bottom: 1px solid #444;
+            color: #fff;
+        }
+ 
+        .inventory-table th {
+            background-color: #2c2c2c;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-size: 0.85rem;
+            font-weight: normal;
+        }
+ 
+        .inventory-table tbody tr:hover {
+            background-color: #2a2a2a;
+        }
+        /* Dan | End */
+    </style>
 </head>
 <body>
-    <div class = "main-nav">
-        <image src="logo.png" height = "40px">ws\\\</image>
-        <button type = "button" id ="nav-button">Home</button>
-        <button type = "button" id = "nav-button">Vehicles</button>
-        <button type = "button" id = "nav-button">About Us</button>
+ 
+    <header>
+        <div class="main-nav">
+            <div id="logo">Dealership</div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="inventory.html">Inventory</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+ 
+    <!-- Dan | Start -->
+    <div class="page-content">
+        <h1 class="page-title">Inventory</h1>
+ 
+        <table class="inventory-table">
+            <thead>
+                <tr>
+                    <th>Year</th>
+                    <th>Make</th>
+                    <th>Model</th>
+                    <th>Mileage</th>
+                    <th>Price</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Cars will go here -->
+            </tbody>
+        </table>
     </div>
+    <!-- Dan | End -->
+ 
 </body>
 </html>

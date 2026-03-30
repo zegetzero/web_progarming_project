@@ -14,24 +14,24 @@ Member 4 : Franklin Vo -
 
 ###  HTML (15/70)
 ### 🏗️ HTML (15/70)
-- [x ] **Uses index.html as first page**
+- [x] **Uses index.html as first page**
 - [x] **2 html pages Minimum**
 - [ ] **1 table**
 - [ ] **1 form**
-- [ ] **Uses images**
-- [ ] **Uses links**
-- [ ] **Well commented code**
+- [x ] **Uses images**
+- [x ] **Uses links**
+- [x ] **Well commented code**
 
 ### 🎨 Cascading Style Sheets (CSS) (15/70)
-- [ ] **Uses a CSS file(s)**
+- [x ] **Uses a CSS file(s)**
 - [ ] **Has Basic Selectors**
 - [ ] **Uses Common Properties**
-- [ ] **Uses font and text properties**
-- [ ] **Uses Box model (padding/margin) to look nicer**
-- [ ] **Uses either flexbox or grid container**
+- [x ] **Uses font and text properties**
+- [x ] **Uses Box model (padding/margin) to look nicer**
+- [x ] **Uses either flexbox or grid container**
 - [ ] **Uses positioning**
 - [ ] **Form is styled**
-- [ ] **Special effects: such as button styling**
+- [x ] **Special effects: such as button styling**
 
 ### ⚙️ JavaScript (40/70)
 - [ ] **Uses either a js file or script tags**

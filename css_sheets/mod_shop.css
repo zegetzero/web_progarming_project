@@ -1,0 +1,58 @@
+/* Oliver | start */
+body {
+    display: flex;
+    flex-direction: column; /* This stacks your sections vertically */
+    align-items: center;    /* This centers the sections horizontally */
+    margin: 0;
+    padding-top: 15px;
+    background: black;
+    font-family: sans-serif;
+}
+
+.usr_register {
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 300px; /* Matching the width of the other sections */
+}
+
+.builds{
+    display: flex;
+    flex-direction: column;
+    width: 300px; /* Unified width */
+    gap: 10px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+
+
+.radio-option {
+    background: #1a1a1a; 
+    padding: 12px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: 0.2s;
+    box-sizing: border-box; /* Keeps borders consistent */
+}
+
+.radio-option:hover {
+    border-color: #555;
+    background: #222;
+}
+
+.radio-option input[type="radio"] {
+    margin-right: 15px;
+    accent-color: #080808;
+    width: 18px;
+    height: 18px;
+}
+
+button{
+    background-color: 1a1a1a;
+    
+}
+/* Oliver| End */

@@ -1,7 +1,7 @@
 /* Oliver | start */
 body {
     display: flex;
-    flex-direction: column; /* This stacks your sections vertically */
+    flex-direction: column; /* This stacks the sections vertically */
     align-items: center;    /* This centers the sections horizontally */
     margin: 0;
     padding-top: 15px;

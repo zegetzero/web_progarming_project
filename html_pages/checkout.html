@@ -3,16 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="../css_sheets/style.css">
+    <title>Checkout</title>
+    <style>
+        #items {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        body {
+            background-color: antiquewhite;
+        }
+    </style>
 </head>
 <body>
+    <header> <!-- 
+        This is the start of the nav bar the will be 
+        able to navigate to other pages -->
+        <div class="main-nav">
+            <div id ="logo">Checkout</div>
+            <nav>
+                <ul class="nav-links">   
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="about.html">What Drives Us</a></li>
+                    <li><a href="inventory.html">Inventory</a></li>
+                </ul>
+            </nav>
+        </div>        
+    </header>
+    <div id = "items">
+    <!--kai start-->
+    <div>
+        <h3 id = "select-car">Select Your Car</h3>
+        <select id = "car-order">
+            <option value= "mazda">1990 Mazda Miata</option>
+            <option value = "porsche">1968 Porsche 911</option>
+            <option value = "benz">2024 Mercedes C Class</option>
+            <option value = "bmw">2024 BMW X3 sDrive30i</option>
+        </select>
+        <p id = "confirmation"></p>
+    </div>
+    <!--kai end-->
         <div id="checkout-form">
-                <h3>Shippinwg & Payment</h3>
+                <h3 id = "shipping">Shipping & Payment</h3>
                 <input type="text" id="name" placeholder="Full Name"><br>
                 <input type="text" id="addr" placeholder="Shipping Address"><br>
                 <input type="text" id="card" placeholder="Card Number (16 digits)"><br>
                 <br>
                 <button onclick="buy()">Complete Build Order</button>
             </div>
+        <p id = "totalPrice"><p>
+    </div>
+    <script src="../java_scripts/checkout.js"></script>
 </body>
 </html>
